@@ -1,0 +1,25 @@
+name: Mobile CI
+
+on:
+  push:
+    branches:
+      - develop
+      - main
+
+  pull_request:
+    branches:
+      - develop
+      - main
+
+jobs:
+  validate-repository:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Validate Repository
+        run: |
+          echo "FinTrackerHub Backend CI"
+          echo "Workflow executado com sucesso"
