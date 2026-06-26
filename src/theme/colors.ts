@@ -1,6 +1,6 @@
 /**
  * Design System Colors
- * 
+ *
  * Baseado na paleta do Nubank
  * Referência: https://www.nubank.com.br/
  */
@@ -9,8 +9,8 @@ export const colors = {
   // Primary (Roxo Nubank)
   primary: {
     light: '#9E6FD5',
-    main: '#7C3AED',    // Purple-600
-    dark: '#6D28D9',    // Purple-700
+    main: '#7C3AED', // Purple-600
+    dark: '#6D28D9', // Purple-700
   },
 
   // Neutral

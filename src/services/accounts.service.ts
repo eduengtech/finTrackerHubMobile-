@@ -1,6 +1,6 @@
 /**
  * Accounts Service
- * 
+ *
  * Centraliza requisições relacionadas a contas financeiras
  */
 

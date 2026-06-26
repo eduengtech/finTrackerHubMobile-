@@ -5,7 +5,6 @@
  * Adiciona headers, autenticação, tratamento de erros
  */
 
-import { API_URLS } from '@/shared/constants/api-urls';
 import { getToken, removeToken } from '@/shared/utils/storage';
 
 interface FetchOptions extends RequestInit {
@@ -13,7 +12,7 @@ interface FetchOptions extends RequestInit {
 }
 
 class ApiClient {
-  private getAuthHeader = async () => {
+  private getAuthHeader = async (): Promise<Record<string, string>> => {
     const token = await getToken();
     return token ? { Authorization: `Bearer ${token}` } : {};
   };

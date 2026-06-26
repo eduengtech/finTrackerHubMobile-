@@ -1,6 +1,6 @@
 /**
  * Account Domain Types
- * 
+ *
  * Define a estrutura de dados de contas financeiras
  */
 

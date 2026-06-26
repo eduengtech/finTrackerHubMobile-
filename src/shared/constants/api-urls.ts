@@ -1,6 +1,6 @@
 /**
  * API URLs Configuration
- * 
+ *
  * Centraliza todas as URLs de requisição
  * Muda automaticamente baseado no ambiente
  */

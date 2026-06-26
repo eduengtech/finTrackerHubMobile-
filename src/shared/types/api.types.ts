@@ -1,6 +1,6 @@
 /**
  * API Response Types
- * 
+ *
  * Define a estrutura genérica de respostas da API
  */
 

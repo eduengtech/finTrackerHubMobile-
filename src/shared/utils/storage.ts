@@ -1,6 +1,6 @@
 /**
  * Local Storage Utilities
- * 
+ *
  * Abstrai acesso ao AsyncStorage/localStorage
  * Centraliza chaves de armazenamento
  */

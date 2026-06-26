@@ -1,6 +1,6 @@
 /**
  * User Domain Types
- * 
+ *
  * Define a estrutura de dados relacionada a usuários
  */
 

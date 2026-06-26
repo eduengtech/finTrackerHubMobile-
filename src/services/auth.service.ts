@@ -1,16 +1,12 @@
 /**
  * Authentication Service
- * 
+ *
  * Centraliza todas as requisições de autenticação
  * Login, Register, Token refresh
  */
 
 import { API_URLS } from '@/shared/constants/api-urls';
-import { 
-  LoginRequest, 
-  LoginResponse, 
-  RegisterRequest 
-} from '@/shared/types/user.types';
+import { LoginRequest, LoginResponse, RegisterRequest } from '@/shared/types/user.types';
 import { apiClient } from './api';
 
 export const authService = {
@@ -31,11 +27,7 @@ export const authService = {
    * @param password - Senha do usuário
    * @param name - Nome completo
    */
-  register: async (
-    email: string,
-    password: string,
-    name: string
-  ): Promise<LoginResponse> => {
+  register: async (email: string, password: string, name: string): Promise<LoginResponse> => {
     const payload: RegisterRequest = { email, password, name };
     return apiClient.post(API_URLS.auth.register, payload);
   },

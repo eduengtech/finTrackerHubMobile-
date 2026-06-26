@@ -13,3 +13,13 @@ web-build/
 .env
 .env.local
 .DS_Store
+
+# ESLint
+.eslintcache
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

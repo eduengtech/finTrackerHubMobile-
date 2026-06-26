@@ -1,6 +1,6 @@
 /**
  * Validation Utilities
- * 
+ *
  * Funções de validação reutilizáveis
  */
 
